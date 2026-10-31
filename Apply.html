@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply | Pamoja Loans</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2>Pamoja Loans</h2>
+            <div>
+                <a href="index.html">Home</a>
+                <a href="apply.html">Apply</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="application">
+        <h2>Loan Application Demonstration</h2>
+        <p>Complete this sample form to test the website.</p>
+
+        <form id="loanForm">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" required>
+
+            <label for="amount">Loan Amount (sample)</label>
+            <input type="number" id="amount" min="100" required>
+
+            <label for="period">Repayment Period</label>
+            <select id="period" required>
+                <option value="">Select period</option>
+                <option>3 months</option>
+                <option>6 months</option>
+                <option>12 months</option>
+            </select>
+
+            <label for="purpose">Purpose of Application</label>
+            <textarea id="purpose" required></textarea>
+
+            <button type="submit" class="submit-btn">Submit Demo Form</button>
+        </form>
+
+        <p class="notice">
+            This is a demonstration only. Do not enter real personal or financial information.
+            No applications are sent or stored.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Pamoja Loans. Demonstration website only.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
